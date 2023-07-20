@@ -1,0 +1,14 @@
+.pageContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .pageContainer {
+      min-height: calc(100vh - 200px);
+    }
+  }
+  

@@ -1,0 +1,81 @@
+.homeContainer {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+.aboutSection {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #027368;
+  color: #f0f0f0;
+}
+
+.aboutSection h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: #ed7520;
+  height: 50px;
+}
+
+.aboutPrompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+.title {
+  height: 90px;
+  padding-bottom: 80px;
+}
+
+.aboutPrompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.bioBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #f0f0f0;
+  background-color: #ed7520;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bioBtn:hover {
+  background-color: #ed7520;
+  color: #21325e;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.bioButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutSection h2 {
+    font-size: 40px;
+  }
+
+  .aboutPrompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+}

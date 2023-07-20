@@ -1,0 +1,64 @@
+.bioSection {
+    font-family: Arial, sans-serif;
+    color: #3e497a;
+    padding: 20px;
+  }
+  
+  .profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .aboutMe {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .skillsList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .skillsList li {
+    margin-bottom: 8px;
+  }
+  
+  .experienceItem {
+    margin-bottom: 20px;
+  }
+  
+  .experienceItem h3 {
+    margin-bottom: 8px;
+  }
+  
+  .experienceItem ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .experienceItem ul li {
+    margin-bottom: 4px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
