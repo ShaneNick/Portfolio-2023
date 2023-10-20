@@ -21,8 +21,6 @@ function Contact() {
       return;
     }
 
-    // Handle form submission here
-    // You can use an API or any other method to handle the form data
 
     // Reset form fields
     setName("");

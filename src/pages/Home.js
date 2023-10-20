@@ -2,7 +2,7 @@ import React from "react";
 import EmailIcon from "@mui/icons-material/Email"; 
 import GithubIcon from "@mui/icons-material/GitHub";
 import DescriptionIcon from "@mui/icons-material/Description";
-import Resume from "../assets/Shane's Resume (3).pdf";
+import Resume from "../assets/ShaneResume.pdf";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
 
